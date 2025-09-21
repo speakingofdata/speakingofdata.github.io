@@ -2,7 +2,7 @@
   description: '- English (native), Ukrainian (proficient), Russian (basic)'
 
 - title: 'Speech Processing:'
-  description: '- TTS/Speech Synthesis, ASR, Corpus Development'
+  description: '- TTS/Speech Synthesis, ASR, Praat, Corpus Development'
 
 - title: 'Data management tools, exploratory data analysis:'
   description: '- Python, Pandas, SciPy'
