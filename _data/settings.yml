@@ -3,6 +3,15 @@ menu:
 - {name: 'publications', url: '/publications'}
 - {name: 'courses', url: '/courses'}
 
+courses:
+- {name: 'Vector Calculus', url: 'vector-calculus'}
+- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
+- {name: 'Stellar Structures', url: 'stellar-structures'}
+
+projects:
+- {name: 'LJ2 Corpus', url: 'lj2-corpus'}
+- {name: '80 Excerpts', url: '80-excerpts'}
+
 social:
 - {icon: 'github', link: 'https://github.com/LeNPaul'}
 - {icon: 'twitter', link: 'https://twitter.com/paululele'}
