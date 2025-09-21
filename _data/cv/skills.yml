@@ -1,0 +1,33 @@
+- title: 'Spoken languages'
+  description: 'English (native), Ukrainian (proficient), Russian (basic)'
+
+- title: 'Speech Processing'
+  description: 'TTS/Speech Synthesis, ASR, Corpus Development'
+
+- title: 'Data management tools, exploratory data analysis'
+  description: 'Python, Pandas, SciPy'
+
+- title: 'Machine learning, LLMs, deep learning, neural networks'
+  description: 'Scikit-learn, TensorFlow, PyTorch'
+
+- title: 'Relational database systems'
+  description: 'SQL, Postgres, Oracle'
+
+- title: 'Graph database systems'
+  description: 'XML, XQuery, JSON, PartiQL, Neo4j, Cypher, SparQL'
+
+- title: 'Large data sets, cloud-based and parallel computing'
+  description: 'Hadoop, Spark, AWS, Data Lake'
+
+- title: 'Mathematical basis for data models'
+  description: 'probability, statistics, principle component analysis (PCA)'
+
+- title: 'Data visualization'
+  description: 'Tableau, Matplotlib, Seaborn, Plotly, Dash'
+
+- title: 'Natural language processing (NLP), time series analysis, regression models, supervised and unsupervised learning, ETL, knowledge graphs'
+
+- title: 'Additional programming language experience'
+  description: 'C++, R'
+
+- title: 'Project management, including SharePoint'
