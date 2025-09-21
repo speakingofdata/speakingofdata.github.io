@@ -11,14 +11,14 @@ layout: default
       <div class="col-md-2">
         <h4>Education</h4>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-5">
         {% for section in site.data.about.education %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
       </div>
-      <div class="col-md-6">
-        <img src="{{ site.github.url }}/assets/img/ucsd-grad.jpg" alt="UCSD Graduation" width="50%">
+      <div class="col-md-5">
+        <img src="{{ site.github.url }}/assets/img/ucsd-grad.jpg" alt="UCSD Graduation" width="70%">
       </div>
     </div>
     <div class="row g-5 mb-5">
