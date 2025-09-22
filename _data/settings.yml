@@ -9,7 +9,7 @@ projects:
 - {name: '80 Excerpts', url: '80-excerpts'}
 
 social:
-- {icon: 'envelope', link: 'mailto:speakingofdata@gmail.com'}
-- {icon: 'github', link: 'https://github.com/speakingofdata'}
-- {icon: 'linkedin', link: 'https://www.linkedin.com/in/hcstrickland/'}
-- {icon: 'mortar-board', link: 'https://scholar.google.com/citations?hl=en&user=Gmg26DgAAAAJ'}
+- {style: 'fa-solid', icon: 'envelope', link: 'mailto:speakingofdata@gmail.com'}
+- {style: 'fab', icon: 'github', link: 'https://github.com/speakingofdata'}
+- {style: 'fab', icon: 'linkedin', link: 'https://www.linkedin.com/in/hcstrickland/'}
+- {style: 'fa-solid', icon: 'mortar-board', link: 'https://scholar.google.com/citations?hl=en&user=Gmg26DgAAAAJ'}
