@@ -14,7 +14,7 @@ layout: default
       <div class="col-md-5">
         {% for section in site.data.about.education %}
           <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
+          <p>- {{ section.description }}</p>
         {% endfor %}
       </div>
       <div class="col-md-5">
@@ -39,7 +39,7 @@ layout: default
       <div class="col-md-10">
         {% for section in site.data.about.skills %}
           <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
+          <p>- {{ section.description }}</p>
         {% endfor %}
       </div>
     </div>
