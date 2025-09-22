@@ -12,9 +12,10 @@ layout: default
         <h4>Interests</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.about.education %}
+        {% for section in site.data.research.interests %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
+          <br><br>
         {% endfor %}
       </div>
     </div>    
