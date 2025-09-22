@@ -15,7 +15,7 @@ layout: default
         {% for section in site.data.research.interests %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
-          <br><br>
+          <br>
         {% endfor %}
       </div>
     </div>    
@@ -29,9 +29,9 @@ layout: default
           {{ section.authors }}.<br>
           {{ section.source }}, {{ section.date }}.<br>
           <a href={{ section.url }}>{{ section.url }}</a></p>
-          <p>&emsp;{{ section.description }}</p>
+          <p>- {{ section.description }}</p>
+          <br>
         {% endfor %}
-        <br><br>
       </div>
     </div>
     <div class="row g-5 mb-5">
