@@ -4,11 +4,6 @@ menu:
 - {name: 'portfolio', url: '/portfolio'}
 - {name: 'research', url: '/research'}
 
-courses:
-- {name: 'Vector Calculus', url: 'vector-calculus'}
-- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
-- {name: 'Stellar Structures', url: 'stellar-structures'}
-
 projects:
 - {name: 'LJ2 Corpus', url: 'lj2-corpus'}
 - {name: '80 Excerpts', url: '80-excerpts'}
