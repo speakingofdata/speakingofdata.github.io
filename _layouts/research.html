@@ -13,8 +13,8 @@ layout: default
       </div>
       <div class="col-md-10">
         {% for section in site.data.research.interests %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
+          <p><b>{{ section.title }}</b><br>
+          - {{ section.description }}</p>
           <br>
         {% endfor %}
       </div>
@@ -26,10 +26,10 @@ layout: default
       <div class="col-md-10">
         {% for section in site.data.research.publications %}
           <p><b>{{ section.title }}.</b><br>
+          - {{ section.description }}<br>
           {{ section.authors }}.<br>
           {{ section.source }}, {{ section.date }}.<br>
           <a href={{ section.url }}>{{ section.url }}</a></p>
-          <p>- {{ section.description }}</p>
           <br>
         {% endfor %}
       </div>
