@@ -38,8 +38,8 @@ layout: default
       </div>
       <div class="col-md-10">
         {% for section in site.data.about.skills %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>- {{ section.description }}</p>
+          <p><b>{{ section.title }}:</b><br>
+          - {{ section.description }}</p>
         {% endfor %}
       </div>
     </div>
