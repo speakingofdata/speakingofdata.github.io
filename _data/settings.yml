@@ -4,10 +4,6 @@ menu:
 - {name: 'portfolio', url: '/portfolio'}
 - {name: 'research', url: '/research'}
 
-projects:
-- {name: 'LJ2 Corpus', url: 'lj2-corpus'}
-- {name: '80 Excerpts', url: '80-excerpts'}
-
 social:
 - {style: 'fa-solid', icon: 'envelope', link: 'mailto:speakingofdata@gmail.com', text: 'speakingofdata@gmail.com'}
 - {style: 'fab', icon: 'github', link: 'https://github.com/speakingofdata', text: 'github.com/speakingofdata'}
