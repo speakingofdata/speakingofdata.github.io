@@ -9,7 +9,7 @@ projects:
 - {name: '80 Excerpts', url: '80-excerpts'}
 
 social:
-- {style: 'fa-solid', icon: 'envelope', link: 'mailto:speakingofdata@gmail.com'}
-- {style: 'fab', icon: 'github', link: 'https://github.com/speakingofdata'}
-- {style: 'fab', icon: 'linkedin', link: 'https://www.linkedin.com/in/hcstrickland/'}
-- {style: 'fa-solid', icon: 'mortar-board', link: 'https://scholar.google.com/citations?hl=en&user=Gmg26DgAAAAJ'}
+- {style: 'fa-solid', icon: 'envelope', link: 'mailto:speakingofdata@gmail.com', text: 'speakingofdata@gmail.com'}
+- {style: 'fab', icon: 'github', link: 'https://github.com/speakingofdata', text: 'github.com/speakingofdata'}
+- {style: 'fab', icon: 'linkedin', link: 'https://www.linkedin.com/in/hcstrickland/', text: 'linkedin.com/in/hcstrickland'}
+- {style: 'fa-solid', icon: 'mortar-board', link: 'https://scholar.google.com/citations?hl=en&user=Gmg26DgAAAAJ', text: 'scholar.google.com: Harper Strickland'}
