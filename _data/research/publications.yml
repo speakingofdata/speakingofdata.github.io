@@ -13,7 +13,7 @@
   description: 'Analysis of interviews with 16 developers about accessibility, neurodiversity, and ethical implications.'
 
 - title: 'Avian Language Models: Rethinking Bioacoustic Pipelines with Self-Supervised Learning'
-  authors: 'Hari Prakash, Harper Strickland, Xinyu Bao, Jiawei Li, Alex Lehman'
+  authors: 'Hari Prakash, <b>Harper Strickland</b>, Xinyu Bao, Jiawei Li, Alex Lehman'
   source: 'UC San Diego, MAS Capstone Project'
   date: 'June 2025'
   url: 'https://doi.org/10.6075/J0NV9JM2'
