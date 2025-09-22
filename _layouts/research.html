@@ -27,7 +27,7 @@ layout: default
           <p class="fw-bold">{{ section.title }}.</p>
           <p>{{ section.authors }}.</p>
           <p>{{ section.source }}, {{ section.date }}.</p>
-          <p>{{ section.url }}.</p>
+          <p><a href={{ section.url }}>{{ section.url }}</a></p>
           <p>&emsp;{{ section.description }}</p>
         {% endfor %}
       </div>
