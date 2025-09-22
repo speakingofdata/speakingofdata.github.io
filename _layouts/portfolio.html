@@ -7,8 +7,18 @@ layout: default
 <div class="row g-5 mb-5">
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Harper Strickland:&ensp;Projects</h3>
-    {% for project in site.data.settings.projects %}
-      <p><a href="{{ site.github.url }}/projects/{{ project.url}}">{{ project.name }}</a></p>
+    {% for section in site.data.portfolio.projexts %}
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>{{ section.title }}</h4>
+      </div>
+      <div class="col-md-10">
+          <p class="fw-bold">{{ section.title }}.</p>
+          <p style=”padding: 0px; margin: 5px;”>- {{ section.description }}</p>
+          <p style=”padding: 0px; margin: 0px;”><a href={{ section.link_url }}>{{ section.link_text }}</a></p>
+          <br>
+      </div>
+    </div>  
     {% endfor %}
   </div>
 </div>
