@@ -1,10 +1,11 @@
 <footer class="pt-5 my-5 text-muted border-top">
   <div class="row">
     <div class="col-md-12 text-end social-media-icons">
+      <p style="text-align: center;">
       {% for item in site.data.settings.social %}
-        <p style="text-align: center;"><a href="{{ item.link }}" class="ms-3 fs-5"><i class="{{ item.style }} fa-{{ item.icon }} test text"></i></a>
-        </p>
+        <a href="{{ item.link }}" class="ms-3 fs-5"><i class="{{ item.style }} fa-{{ item.icon }}"></i> test text</a>
       {% endfor %}
+      </p>
     </div>
   </div>
   <div class="row">
