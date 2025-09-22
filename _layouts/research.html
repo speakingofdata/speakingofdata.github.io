@@ -9,24 +9,10 @@ layout: default
     <h3 class="fw-bold border-bottom pb-3 mb-5">Harper Strickland:  Research</h3>
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4>Education</h4>
-      </div>
-      <div class="col-md-5">
-        {% for section in site.data.about.education %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
-        {% endfor %}
-      </div>
-      <div class="col-md-5">
-        <img src="{{ site.github.url }}/assets/img/ucsd-grad.jpg" alt="UCSD Graduation" width="70%">
-      </div>
-    </div>
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4>Professional Experience</h4>
+        <h4>Interests</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.about.experience %}
+        {% for section in site.data.about.education %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
@@ -34,25 +20,24 @@ layout: default
     </div>    
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4>Core Skills</h4>
+        <h4>Publications</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.about.skills %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
+        {% for section in site.data.research.publications %}
+          <p class="fw-bold">{{ section.title }}.</p>
+          <p>{{ section.authors }}.</p>
+          <p>{{ section.source }}, {{ section.date }}.</p>
+          <p>{{ section.url }}.</p>
+          <p>&emsp;{{ section.description }}</p>
         {% endfor %}
       </div>
     </div>
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4>Community Leadership</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.about.leadership %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
-        {% endfor %}
+        <img src="{{ site.github.url }}/assets/img/ucsd-capstone.jpg" alt="UCSD MAS Capstone Cohort in front of Geisel Library" width="70%">
       </div>
-    </div>
+    </div>    
   </div>
 </div>
