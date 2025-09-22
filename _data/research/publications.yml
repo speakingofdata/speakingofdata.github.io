@@ -1,16 +1,20 @@
-- title: 'Industrial Engineer, UPS (6 years)'
-  description: |
-    - Planned logistics and resource needs for transition to first automated facility in Colorado<br>
-    - Responsible for forecasting projections using proprietary big data management and analysis tools<br>
-    - Maintained service area map relational database and on-road work measurements for 4 states
+- title: 'AUTALIC: A Dataset for Anti-AUTistic Ableist Language In Context'
+  authors: 'Naba Rizvi, Harper Strickland, Daniel Gitelman, Alexis Morales Flores, Tristan Cooper, Aekta Kallepalli, Akshat Alurkar, Haaset Owens, Saleha Ahmedi, Isha Khirwadkar, Imani N. S. Munyaka, Nedjma Ousidhoum'
+  source: 'Association for Computational Linguistics (ACL)'
+  date: 'July 2025'
+  url: 'https://aclanthology.org/2025.acl-long.1022'
+  description: 'First annotated dataset for detecting anti-autistic ableist language, with machine learning analysis.'
 
-- title: 'Community Development Consultant, U.S. Peace Corps, Ukraine (2 years)'
-  description: |
-    - Opened a Community Education Center, hired and trained director and staff, developed a sustainable business plan,
-    and created programs serving 270 local participants of all ages
+- title: "'I Hadn't Thought About That': Creators of Human-like AI Weigh in on Ethics & Neurodivergence"
+  authors: 'Naba Rizvi, Taggert Smith, Tanvi Vidyala, Mya Bolds, Harper Strickland, Andrew Begel, Rua Williams, Imani Munyaka'
+  source: 'ACM Conference on Fairness, Accountability, and Transparency (FAccT)'
+  date: 'June 2025'
+  url: 'https://doi.org/10.1145/3715275.3732218'
+  description: 'Analysis of interviews with 16 developers about accessibility, neurodiversity, and ethical implications.'
 
-
-index:
-- {name: 'AUTALIC: A Dataset for Anti-AUTistic Ableist Language In Context.<br>Naba Rizvi, Harper Strickland, Daniel Gitelman, Alexis Morales Flores, Tristan Cooper, Aekta Kallepalli, Akshat Alurkar, Haaset Owens, Saleha Ahmedi, Isha Khirwadkar, Imani N. S. Munyaka, Nedjma Ousidhoum.<br>Association for Computational Linguistics (ACL), July 2025.<br>https://aclanthology.org/2025.acl-long.1022<br>First annotated dataset for detecting anti-autistic ableist language, with machine learning analysis.', url: 'https://aclanthology.org/2025.acl-long.1022'}
-- {name: "'I Hadn't Thought About That': Creators of Human-like AI Weigh in on Ethics & Neurodivergence.<br>Naba Rizvi, Taggert Smith, Tanvi Vidyala, Mya Bolds, Harper Strickland, Andrew Begel, Rua Williams, Imani Munyaka.<br>ACM FAccT Conference, June 2025.<br>https://doi.org/10.1145/3715275.3732218<br>Analysis of interviews with 16 developers about accessibility, neurodiversity, and ethical implications.", url: 'https://doi.org/10.1145/3715275.3732218'}
-- {name: 'Avian Language Models: Rethinking Bioacoustic Pipelines with Self-Supervised Learning.<br>Hari Prakash, Harper Strickland, Xinyu Bao, Jiawei Li, Alex Lehman.<br>Capstone Project, UC San Diego, June 2025.<br>https://doi.org/10.6075/J0NV9JM2<br>Ablation studies of bioacoustic model performance: encoder, Q-Former, large language model (LLM).', url: 'https://doi.org/10.6075/J0NV9JM2'}
+- title: 'Avian Language Models: Rethinking Bioacoustic Pipelines with Self-Supervised Learning'
+  authors: 'Hari Prakash, Harper Strickland, Xinyu Bao, Jiawei Li, Alex Lehman'
+  source: 'UC San Diego, MAS Capstone Project'
+  date: 'June 2025'
+  url: 'https://doi.org/10.6075/J0NV9JM2'
+  description: 'Ablation studies of bioacoustic model performance: encoder, Q-Former, large language model (LLM).'
