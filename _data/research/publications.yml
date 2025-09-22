@@ -1,12 +1,12 @@
 - title: 'AUTALIC: A Dataset for Anti-AUTistic Ableist Language In Context'
-  authors: 'Naba Rizvi, Harper Strickland, Daniel Gitelman, Alexis Morales Flores, Tristan Cooper, Aekta Kallepalli, Akshat Alurkar, Haaset Owens, Saleha Ahmedi, Isha Khirwadkar, Imani N. S. Munyaka, Nedjma Ousidhoum'
+  authors: 'Naba Rizvi, <b>Harper Strickland</b>, Daniel Gitelman, Alexis Morales Flores, Tristan Cooper, Aekta Kallepalli, Akshat Alurkar, Haaset Owens, Saleha Ahmedi, Isha Khirwadkar, Imani N. S. Munyaka, Nedjma Ousidhoum'
   source: 'Association for Computational Linguistics (ACL)'
   date: 'July 2025'
   url: 'https://aclanthology.org/2025.acl-long.1022'
   description: 'First annotated dataset for detecting anti-autistic ableist language, with machine learning analysis.'
 
 - title: "'I Hadn't Thought About That': Creators of Human-like AI Weigh in on Ethics & Neurodivergence"
-  authors: 'Naba Rizvi, Taggert Smith, Tanvi Vidyala, Mya Bolds, Harper Strickland, Andrew Begel, Rua Williams, Imani Munyaka'
+  authors: 'Naba Rizvi, Taggert Smith, Tanvi Vidyala, Mya Bolds, <b>Harper Strickland</b>, Andrew Begel, Rua Williams, Imani Munyaka'
   source: 'ACM Conference on Fairness, Accountability, and Transparency (FAccT)'
   date: 'June 2025'
   url: 'https://doi.org/10.1145/3715275.3732218'
