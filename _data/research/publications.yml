@@ -14,7 +14,7 @@
 
 - title: 'Avian Language Models: Rethinking Bioacoustic Pipelines with Self-Supervised Learning'
   authors: 'Hari Prakash, <b>Harper Strickland</b>, Xinyu Bao, Jiawei Li, Alex Lehman'
-  source: 'UC San Diego, MAS Capstone Project'
+  source: 'MAS Capstone Project, UC San Diego'
   date: 'June 2025'
   url: 'https://doi.org/10.6075/J0NV9JM2'
   description: 'Ablation studies of bioacoustic model performance: encoder, Q-Former, large language model (LLM).'
