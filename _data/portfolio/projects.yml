@@ -1,9 +1,11 @@
 - title: 'LJ2 Corpus'
+  tagline: '1 voice, 26,200 transcribed sound files'
   description: 'Using the same voice and file formats as the popular LJ Speech Dataset, this corpus is 100% larger, can be segmented into 12-, 24-, or 48-hour units, and contains over 8x more source texts, representing a greater breadth of non-fiction subjects. Among other strategies, this corpus employs downsampling to increase alignment with modern word usage frequency, without overfitting. It can be combined with LJ Speech to provide 72 hours of recordings, used on its own, or as a replacement in any model designed to work with LJ Speech.'
   link_url: 'https://github.com/speakingofdata/LJ2_Corpus'
   link_text: 'LJ2 Corpus Documentation and File Repository'
 
 - title: '80 Excerpts'
+  tagline: '4 voices, 320 trsncribed sound files'
   description: 'Text selections from public domain sources: 20 represented from sources unique to LJ Speech, 20 represented from sources unique to LJ2 Corpus, 20 from sources shared by both LJ Speech and LJ2 Corpus (10 selected from each), and 20 from fiction sources not contained in either LJ Speech or LJ2 Corpus. Recordings of four adult Americans reading each excerpt, 80 wav files for each voice.'
   link_url: 'https://github.com/speakingofdata/80_Excerpts'
   link_text: '80 Excerpts Documentation and File Repository'
