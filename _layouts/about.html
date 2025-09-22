@@ -13,8 +13,8 @@ layout: default
       </div>
       <div class="col-md-5">
         {% for section in site.data.about.education %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>- {{ section.description }}</p>
+          <p><b>{{ section.title }}</b><br>
+          - {{ section.description }}</p>
         {% endfor %}
       </div>
       <div class="col-md-5">
@@ -27,8 +27,8 @@ layout: default
       </div>
       <div class="col-md-10">
         {% for section in site.data.about.experience %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
+          <p><b>{{ section.title }}</b><br>
+          {{ section.description }}</p>
         {% endfor %}
       </div>
     </div>    
@@ -49,8 +49,8 @@ layout: default
       </div>
       <div class="col-md-10">
         {% for section in site.data.about.leadership %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
+          <p><b>{{ section.title }}</b><br>
+          {{ section.description }}</p>
         {% endfor %}
       </div>
     </div>
