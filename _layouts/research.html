@@ -24,12 +24,13 @@ layout: default
       </div>
       <div class="col-md-10">
         {% for section in site.data.research.publications %}
-          <p class="fw-bold">{{ section.title }}.</p>
-          <p>{{ section.authors }}.</p>
-          <p>{{ section.source }}, {{ section.date }}.</p>
-          <p><a href={{ section.url }}>{{ section.url }}</a></p>
+          <p class="fw-bold">{{ section.title }}.<br>
+          {{ section.authors }}.<br>
+          {{ section.source }}, {{ section.date }}.<br>
+          <a href={{ section.url }}>{{ section.url }}</a></p>
           <p>&emsp;{{ section.description }}</p>
         {% endfor %}
+        <p></p>
       </div>
     </div>
     <div class="row g-5 mb-5">
