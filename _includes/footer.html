@@ -1,14 +1,14 @@
 <footer class="pt-5 my-5 text-muted border-top">
   <div class="row">
-    <div class="col-md-6 text-end social-media-icons">
+    <div class="col-md-12 text-end social-media-icons">
       {% for item in site.data.settings.social %}
         <a href="{{ item.link }}" class="ms-3 fs-5"><i class="{{ item.style }} fa-{{ item.icon }}"></i></a>
       {% endfor %}
     </div>
   </div>
   <div class="row">
-    <div class="col-md-6 text-end social-media-icons">
-      <script>document.write(new Date().getFullYear())</script>
+    <div class="col-md-12 text-end social-media-icons">
+      &copy;<script>document.write(new Date().getFullYear())</script> Harper Strickland.&ensp;Powered by Jekyll on Github Pages with <a href="https://https://jekyll-themes.com/LeNPaul/academic">academic</a> theme from Paul Le.
     </div>
   </div>
 </footer>
