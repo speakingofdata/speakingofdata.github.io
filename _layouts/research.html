@@ -25,9 +25,9 @@ layout: default
       </div>
       <div class="col-md-10">
         {% for section in site.data.research.publications %}
-          <p><b>{{ section.title }}.</b><br>
-          - {{ section.description }}<br>
-          {{ section.authors }}.<br>
+          <p>{{ section.title }}.</p>
+          <p style=”padding: 0px; margin: 5px;”>{{ section.description }}</p>
+          <p style=”padding: 0px; margin: 0px;”>{{ section.authors }}.<br>
           {{ section.source }}, {{ section.date }}.<br>
           <a href={{ section.url }}>{{ section.url }}</a></p>
           <br>
