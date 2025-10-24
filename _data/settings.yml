@@ -3,6 +3,7 @@ menu:
 - {name: 'about', url: '/about'}
 - {name: 'portfolio', url: '/portfolio'}
 - {name: 'research', url: '/research'}
+- {name: 'cv', url: '/Strickland_CV.pdf'}
 
 social:
 - {style: 'fa-solid', icon: 'envelope', link: 'mailto:speakingofdata@gmail.com', text: 'speakingofdata@gmail.com'}
