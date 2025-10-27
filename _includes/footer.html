@@ -3,7 +3,7 @@
     <div class="col-md-12 text-end social-media-icons">
       <p style="text-align: center;">
       {% for item in site.data.settings.social %}
-        <a href="{{ item.link }}" class="ms-3 fs-5 text-decoration-none"><i class="{{ item.style }} fa-{{ item.icon }}"></i></a> <a href="{{ item.link }}" style="font-size: 15px;">{{ item.text }}</a><br>
+        <a href="{{ item.link }}" class="ms-3 fs-5"><i class="{{ item.style }} fa-{{ item.icon }}"></i></a> <a href="{{ item.link }}" class="text-decoration-none" style="font-size: 15px;">{{ item.text }}</a><br>
       {% endfor %}
       </p>
     </div>
