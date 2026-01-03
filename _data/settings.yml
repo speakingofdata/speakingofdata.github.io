@@ -9,4 +9,4 @@ social:
 - {style: 'fa-solid', icon: 'envelope', link: 'mailto:speakingofdata@gmail.com', text: 'speakingofdata@gmail.com'}
 - {style: 'fab', icon: 'github', link: 'https://github.com/speakingofdata', text: 'github.com/speakingofdata'}
 - {style: 'fab', icon: 'linkedin', link: 'https://www.linkedin.com/in/speakingofdata/', text: 'linkedin.com/in/speakingofdata'}
-- {style: 'fa-solid', icon: 'mortar-board', link: 'https://scholar.google.com/citations?hl=en&user=Gmg26DgAAAAJ', text: 'scholar.google.com: Harper Strickland'}
+- {style: 'fa-solid', icon: 'mortar-board', link: 'https://www.semanticscholar.org/author/Harper-Strickland/2327050896', text: 'semanticscholar.org: Harper Strickland'}
