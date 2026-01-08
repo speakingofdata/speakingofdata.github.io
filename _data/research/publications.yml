@@ -2,7 +2,7 @@
   authors: 'Naba Rizvi, <b>Harper Strickland</b>, Daniel Gitelman, Alexis Morales Flores, Tristan Cooper, Aekta Kallepalli, Akshat Alurkar, Haaset Owens, Saleha Ahmedi, Isha Khirwadkar, Imani N. S. Munyaka, Nedjma Ousidhoum'
   source: 'Association for Computational Linguistics (ACL)'
   date: 'July 2025'
-  url: 'https://aclanthology.org/2025.acl-long.1022'
+  url: 'https://doi.org/10.18653/v1/2025.acl-long.1022'
   description: 'First annotated dataset for detecting anti-autistic ableist language, with machine learning analysis.'
 
 - title: "'I Hadn't Thought About That': Creators of Human-like AI Weigh in on Ethics & Neurodivergence"
