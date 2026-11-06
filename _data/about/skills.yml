@@ -2,7 +2,7 @@
   description: 'English (native), Ukrainian (proficient), Russian (basic)'
 
 - title: 'Speech Processing'
-  description: 'TTS/Speech Synthesis, ASR, Praat, Corpus Development'
+  description: 'TTS/Speech Synthesis, ASR, Emotion, Bias, Praat, Corpus Development'
 
 - title: 'Data management tools, exploratory data analysis'
   description: 'Python, Pandas, SciPy'
@@ -26,7 +26,7 @@
   description: 'Tableau, Matplotlib, Seaborn, Plotly, Dash'
 
 - title: 'Additional programming language experience'
-  description: 'C++, R'
+  description: 'MATLAB, C++, R'
 
 - title: 'Project management'
   description: 'SharePoint'
