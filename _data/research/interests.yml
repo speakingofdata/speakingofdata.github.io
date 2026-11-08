@@ -1,5 +1,5 @@
 - title: 'Speech Processing'
-  description: 'TTS, Speech Synthesis, Prosody Transfer, ASR, Corpus Development, Model Evaluation'
+  description: 'Speech Synthesis, Text-to-Speech (TTS), Expressiveness, Prosody and Emotion Transfer, Automatic Speech Recognition (ASR), Corpus Development, Model Evaluation'
 
 - title: 'Ethical Data Science'
   description: 'Fairness, Bias, Responsible and Equitable Applications of Machine Learning'
