@@ -14,7 +14,7 @@ layout: default
       </div>
       <div class="col-md-10">
           {% if section.image %}
-          <img src="{{ section.image | relative_url }}" alt="{{ section.alt | default: section.title }}" style="display:block; width:calc(100% - 10px); height:auto; margin:0 0 15px 10px;">
+          <img src="{{ section.image | relative_url }}" alt="{{ section.alt | default: section.title }}" style="display:block; width:calc(100% - 20px); height:160px; object-fit:cover; border:1px solid #000; margin:0 10px 15px 10px;">
           {% endif %}
           <p class="fw-bold">{{ section.tagline }}</p>
           <p style="padding: 0px; margin: 5px;">{{ section.description }}</p>
