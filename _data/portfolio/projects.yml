@@ -12,4 +12,4 @@
   link_url: 'https://github.com/speakingofdata/80_Excerpts'
   link_text: '80 Excerpts Documentation and File Repository'
   image: /assets/img/vowels.png
-  alt: "Red, yellow, and blue mel spectrograms of three speakers saying 'the vowels'"
+  alt: "Purple MFCCs plotted for three speakers saying 'the vowels'"
