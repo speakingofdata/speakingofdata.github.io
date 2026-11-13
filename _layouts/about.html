@@ -2,19 +2,49 @@
 layout: default
 ---
 
+<style>
+  .section-title {
+    color: #006699;
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 767.98px) {
+    .section-content-col > :first-child {
+      margin-top: 0;
+    }
+    .section-content-col img {
+      margin-top: 0;
+    }
+    .section-heading-col,
+    .section-content-col {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    .section-row > * {
+      margin-top: 0.5rem !important;
+    }
+    .section-title {
+      margin-bottom: 0;
+      line-height: 1.1;
+    }
+  }
+</style>
+
 {{ content }}
 
 <div class="row g-5 mb-5">
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Harper Strickland:&ensp;Selected Qualifications</h3>
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4 style="color:#006699;">Education</h4>
+
+    <div class="row g-5 mb-5 section-row">
+      <div class="col-md-2 section-heading-col">
+        <h4 class="section-title">Education</h4>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-5 section-content-col">
         {% for section in site.data.about.education %}
-          <p><b>{{ section.title }}</b><br>
-          • {{ section.description }}</p>
+          <p class="fw-bold" style="margin:0 0 5px 10px;">{{ section.title }}</p>
+          <p style="margin:0 0 5px 10px;">• {{ section.description }}</p>
+          <br>
         {% endfor %}
       </div>
       <div class="col-md-5">
@@ -22,36 +52,42 @@ layout: default
         </p>
       </div>
     </div>
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4 style="color:#006699;">Work Experience</h4>
+
+    <div class="row g-5 mb-5 section-row">
+      <div class="col-md-2 section-heading-col">
+        <h4 class="section-title">Work Experience</h4>
       </div>
-      <div class="col-md-10">
+      <div class="col-md-10 section-content-col">
         {% for section in site.data.about.experience %}
-          <p><b>{{ section.title }}</b><br>
-          {{ section.description }}</p>
-        {% endfor %}
-      </div>
-    </div>    
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4 style="color:#006699;">Core Skills</h4>
-      </div>
-      <div class="col-md-10">
-        {% for section in site.data.about.skills %}
-          <p><b>{{ section.title }}:</b><br>
-          • {{ section.description }}</p>
+          <p class="fw-bold" style="margin:0 0 5px 10px;">{{ section.title }}</p>
+          <p style="margin:0 0 5px 10px;">{{ section.description }}</p>
+          <br>
         {% endfor %}
       </div>
     </div>
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4 style="color:#006699;">Leadership</h4>
+
+    <div class="row g-5 mb-5 section-row">
+      <div class="col-md-2 section-heading-col">
+        <h4 class="section-title">Core Skills</h4>
       </div>
-      <div class="col-md-10">
+      <div class="col-md-10 section-content-col">
+        {% for section in site.data.about.skills %}
+          <p class="fw-bold" style="margin:0 0 5px 10px;">{{ section.title }}:</p>
+          <p style="margin:0 0 5px 10px;">• {{ section.description }}</p>
+          <br>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="row g-5 mb-5 section-row">
+      <div class="col-md-2 section-heading-col">
+        <h4 class="section-title">Leadership</h4>
+      </div>
+      <div class="col-md-10 section-content-col">
         {% for section in site.data.about.leadership %}
-          <p><b>{{ section.title }}</b><br>
-          {{ section.description }}</p>
+          <p class="fw-bold" style="margin:0 0 5px 10px;">{{ section.title }}</p>
+          <p style="margin:0 0 5px 10px;">{{ section.description }}</p>
+          <br>
         {% endfor %}
       </div>
     </div>
