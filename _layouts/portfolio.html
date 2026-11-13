@@ -13,19 +13,22 @@ layout: default
         <h4 style="color:#006699;">{{ section.title }}</h4>
       </div>
       <div class="col-md-10">
+          {% if section.image %}
+          <img src="{{ section.image | relative_url }}" alt="{{ section.title }}" style="display:block; width:calc(100% - 10px); height:auto; margin:0 0 15px 10px;">
+          {% endif %}
           <p class="fw-bold">{{ section.tagline }}</p>
-          <p style=”padding: 0px; margin: 5px;”>{{ section.description }}</p>
-          <p style=”padding: 0px; margin: 0px;”><a href={{ section.link_url }}>{{ section.link_text }}</a></p>
+          <p style="padding: 0px; margin: 5px;">{{ section.description }}</p>
+          <p style="padding: 0px; margin: 0px;"><a href="{{ section.link_url }}">{{ section.link_text }}</a></p>
           <br>
       </div>
-    </div>  
+    </div>
     {% endfor %}
     <div class="row g-5 mb-5">
       <div class="col-md-2">
       </div>
       <div class="col-md-10">
-        Thank you to <a href=https://savethevowels.org>Will Styler</a> for invaluable guidance on speech processing and corpora.
+        Thank you to <a href="https://savethevowels.org">Will Styler</a> for invaluable guidance on speech processing and corpora.
       </div>
-    </div>  
+    </div>
   </div>
 </div>
