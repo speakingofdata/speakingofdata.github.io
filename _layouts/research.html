@@ -41,6 +41,7 @@ layout: default
         <h4 class="section-title">Interests</h4>
       </div>
       <div class="col-md-10 section-content-col">
+        <img src="{{ '/assets/img/interests.png' | relative_url }}" alt="NASA image of desert looking like a rainbow: https://images.nasa.gov/details/GSFC_20171208_Archive_e001945" style="display:block; width:calc(100% - 20px); height:90px; object-fit:fill; border:1px solid #000; margin:0 10px 15px 10px;">
         {% for section in site.data.research.interests %}
           <p class="fw-bold" style="margin:0 0 5px 10px;">{{ section.title }}</p>
           <p style="margin:0 0 5px 10px;">• {{ section.description }}</p>
@@ -50,30 +51,17 @@ layout: default
     </div>
 
     <div class="row g-5 mb-5 section-row">
-      <div class="col-md-2 section-heading-col"></div>
-      <div class="col-md-10 section-content-col">
-        <img src="{{ '/assets/img/interests.png' | relative_url }}" alt="NASA image of desert looking like a rainbow: https://images.nasa.gov/details/GSFC_20171208_Archive_e001945" style="display:block; width:calc(100% - 20px); height:90px; object-fit:fill; border:1px solid #000; margin:0 10px 15px 10px;">
-      </div>
-    </div>
-
-    <div class="row g-5 mb-5 section-row">
       <div class="col-md-2 section-heading-col">
         <h4 class="section-title">Publications</h4>
       </div>
       <div class="col-md-10 section-content-col">
+        <img src="{{ '/assets/img/publications.png' | relative_url }}" alt="NASA image of desert looking like a rainbow: https://images.nasa.gov/details/GSFC_20171208_Archive_e001945" style="display:block; width:calc(100% - 20px); height:90px; object-fit:fill; border:1px solid #000; margin:0 10px 15px 10px;">
         {% for section in site.data.research.publications %}
           <p class="fw-bold" style="margin:0 0 5px 10px;">{{ section.title }}.</p>
           <p style="margin:0 0 5px 10px;">• {{ section.description }}</p>
           <p style="margin:0 0 0 10px;">{{ section.authors }}. {{ section.source }}, {{ section.date }}. <a href="{{ section.url }}">{{ section.url }}</a></p>
           <br>
         {% endfor %}
-      </div>
-    </div>
-
-    <div class="row g-5 mb-5 section-row">
-      <div class="col-md-2 section-heading-col"></div>
-      <div class="col-md-10 section-content-col">
-        <img src="{{ '/assets/img/publications.png' | relative_url }}" alt="NASA image of desert looking like a rainbow: https://images.nasa.gov/details/GSFC_20171208_Archive_e001945" style="display:block; width:calc(100% - 20px); height:90px; object-fit:fill; border:1px solid #000; margin:0 10px 15px 10px;">
       </div>
     </div>
 
@@ -85,3 +73,5 @@ layout: default
     </div>
   </div>
 </div>
+
+
