@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <style>
   .section-title {
     color: #006699;
@@ -31,7 +32,7 @@ layout: default
 
 {{ content }}
 
-<div class="row g-5 mb-5">
+<div class="row g-5">
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Harper Strickland:&ensp;Projects</h3>
     {% for section in site.data.portfolio.projects %}
@@ -46,15 +47,14 @@ layout: default
           <p class="fw-bold" style="margin:0 0 5px 10px;">{{ section.tagline }}</p>
           <p style="margin:0 0 5px 10px;">{{ section.description }}</p>
           <p style="margin:0 0 0 10px;"><a href="{{ section.link_url }}">{{ section.link_text }}</a></p>
-          <br>
       </div>
     </div>
     {% endfor %}
-    <div class="row g-5 mb-5">
+    <div class="row g-0">
       <div class="col-md-2">
       </div>
       <div class="col-md-10">
-        Thank you to <a href="https://savethevowels.org">Will Styler</a> for invaluable guidance on speech processing and corpora.
+        <p style="margin:0 0 0 10px;">Thank you to <a href="https://savethevowels.org">Will Styler</a> for invaluable guidance on speech processing and corpora.</p>
       </div>
     </div>
   </div>
