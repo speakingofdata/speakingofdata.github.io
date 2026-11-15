@@ -32,7 +32,7 @@ layout: default
 
 {{ content }}
 
-<div class="row g-5 mb-5">
+<div class="row g-5">
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Harper Strickland:&ensp;Selected Qualifications</h3>
 
@@ -43,13 +43,11 @@ layout: default
       <div class="col-md-5 section-content-col">
         {% for section in site.data.about.education %}
           <p class="fw-bold" style="margin:0 0 5px 10px;">{{ section.title }}</p>
-          <p style="margin:0 0 5px 10px;">• {{ section.description }}</p>
-          <br>
+          <p style="margin:0 0 10px 10px;">• {{ section.description }}</p>
         {% endfor %}
       </div>
       <div class="col-md-5">
-        <p style="text-align: center;"><img src="{{ site.github.url }}/assets/img/ucsd-grad.jpg" alt="UCSD Graduation" width="70%">
-        </p>
+        <p style="text-align: center; margin:0;"><img src="{{ site.github.url }}/assets/img/ucsd-grad.jpg" alt="UCSD Graduation" width="70%"></p>
       </div>
     </div>
 
@@ -60,8 +58,7 @@ layout: default
       <div class="col-md-10 section-content-col">
         {% for section in site.data.about.experience %}
           <p class="fw-bold" style="margin:0 0 5px 10px;">{{ section.title }}</p>
-          <p style="margin:0 0 5px 10px;">{{ section.description }}</p>
-          <br>
+          <p style="margin:0 0 10px 10px;">{{ section.description }}</p>
         {% endfor %}
       </div>
     </div>
@@ -73,21 +70,19 @@ layout: default
       <div class="col-md-10 section-content-col">
         {% for section in site.data.about.skills %}
           <p class="fw-bold" style="margin:0 0 5px 10px;">{{ section.title }}:</p>
-          <p style="margin:0 0 5px 10px;">• {{ section.description }}</p>
-          <br>
+          <p style="margin:0 0 10px 10px;">• {{ section.description }}</p>
         {% endfor %}
       </div>
     </div>
 
-    <div class="row g-5 mb-5 section-row">
+    <div class="row g-5 section-row">
       <div class="col-md-2 section-heading-col">
         <h4 class="section-title">Leadership</h4>
       </div>
       <div class="col-md-10 section-content-col">
         {% for section in site.data.about.leadership %}
           <p class="fw-bold" style="margin:0 0 5px 10px;">{{ section.title }}</p>
-          <p style="margin:0 0 5px 10px;">{{ section.description }}</p>
-          <br>
+          <p style="margin:0 0 10px 10px;">{{ section.description }}</p>
         {% endfor %}
       </div>
     </div>
